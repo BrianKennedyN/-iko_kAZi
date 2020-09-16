@@ -5,6 +5,7 @@ body{
     font-family: Poppins,sans-serif;
     font-size: 1.2rem;
     min-height: 100vh;
+    color: aliceblue;
 }
 
 .full-height-grow{
