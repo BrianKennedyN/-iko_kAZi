@@ -1,0 +1,180 @@
+body{
+    padding: 0;
+    margin-bottom: 0;
+    background-color: #2F303A;
+    font-family: Poppins,sans-serif;
+    font-size: 1.2rem;
+    min-height: 100vh;
+}
+
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    color: white;
+    text-decoration: none;
+}
+
+.brand-logo-name{
+    margin-left: 1rem; 
+    color: white;
+}
+
+.logo{
+    margin-left: 1rem;
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.main-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover{
+    color: #adadad;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header{
+    height: 40px;
+}
+
+.social-link img{
+    width: 1em;
+    margin-right: .25rem;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    flex-grow: 1;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    color: white;
+}
+
+.subtitle{
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.Jobs-main-section{
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+    color: white;
+    padding: 0 40px;
+}
+
+.button{
+   color: white;
+   background-color: #005387;
+   padding: .75rem 1.5rem;
+   border-radius: .5rem;
+   text-decoration: none;
+   font-size: 2rem;
+   outline: none;
+   border: none;
+   cursor: pointer;
+}
+
+button.hover{
+    background-color: #2796ff;
+}
+
+
+
+*{
+    box-sizing: border-box;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+  #emblem{
+    width: 100px;
+  }
+  .footerA{
+    display: inherit;
+    justify-content: space-between;
+    background-color:  #47525d;
+    color: #ffffff;
+    flex-wrap: wrap;
+  }
+  .footer1{
+    display: inherit;
+  }
+  .footer1{
+    height: 100px;
+    width: auto;
+    margin-top: 10px;
+  }
+  #footerB{
+    color:#ffffff;
+    background-color: #3d464d;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+  }
+  .links>p{
+    margin: 5px auto;
+  }
+  .address>p{
+    margin: 5px auto;
+  }
+  .address{
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  .social, .links{
+    margin-right: 150px;
+    margin-top: 10px;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  .socialmedia{
+    display: flex;
+    align-items: center;
+  }
+  #twitter, #facebook, #insta{
+    width: 45px;
+    margin: 10px 10px 10px auto;
+  }
+  #button{
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    width: 14em;
+    border-radius: 5px;
+  }
